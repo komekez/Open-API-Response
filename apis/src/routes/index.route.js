@@ -7,4 +7,4 @@ router.route('/dictionary/').get(dictionaryController.index)
 router.route('/dictionary/:word').get(dictionaryController.searchWord)
 
 
-module.exports - router
+module.exports = router

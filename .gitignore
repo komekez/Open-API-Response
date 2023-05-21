@@ -1,2 +1,4 @@
 #Node modules
 /apis/node_modules
+
+node_modules/
