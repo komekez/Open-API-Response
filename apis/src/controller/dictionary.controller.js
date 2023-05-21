@@ -8,14 +8,11 @@ const index = function(req, res){
     })
 }
 
-const searchWord = function(req, res){
+const searchWord = async function(req, res){
     result = {}
     message = 'Fail'
-    // console.log('here')
-    // console.log(req.params)
-    wordData = externalApis.dictSearchWord(req.params.word);
-    // console.log("REq", req.params.word)
-    console.log("Word Data : ", wordData)
+    wordData = await externalApis.dictSearchWord(req.params.word);
+
     if(wordData && wordData.length > 0){
         result = {
             'word' : wordData[0].word,
