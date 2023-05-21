@@ -36,43 +36,21 @@
 				<div class="d-flex justify-content-between align-items-center w-100">
 					<div>
 						<strong class="text-gray-dark">Today's Quote</strong>
-						<span class="d-block text-muted">Site description</span>
+						<span class="d-block text-muted"><blockquote><%= todays_quotes.data.quote %></blockquote></span>
+						<span class="d-block text-muted">Author : <%= todays_quotes.data.author %></span>
 					</div>
-					<span class="badge badge-success"><i class="fa fa-check" aria-hidden="true"></i> OK</span>
+					<span class="badge badge-success"><i class="fa fa-info mr-1" aria-hidden="true"></i> OK</span>
 				</div>
 			</li>
 			<li class="list-group-item">
 				<div class="d-flex justify-content-between align-items-center w-100">
 					<div>
-						<strong class="text-gray-dark">www.examp.le</strong>
-						<span class="d-block text-muted">Site description</span>
-						<span class="d-block text-info mt-1"><i class="fa fa-info mr-1" aria-hidden="true"></i> Status message ipsum dolor sit amet, consectetur adipiscing elit.</span>
+						<strong class="text-gray-dark">Random Quotes</strong>
+						<span class="d-block text-muted"><blockquote><%= random_quotes.data.quote %></blockquote></span>
+						<span class="d-block text-muted">Author : <%= random_quotes.data.author %></span>
 					</div>
 					<div>
-						<span class="badge badge-danger"><i class="fa fa-times" aria-hidden="true"></i> Outage</span>
-						<span class="badge badge-dark"><i class="fa fa-clock" aria-hidden="true"></i> 5 min</span>
-					</div>
-				</div>
-			</li>
-			<li class="list-group-item">
-				<div class="d-flex justify-content-between align-items-center w-100">
-					<div>
-						<strong class="text-gray-dark">www.examp.le</strong>
-						<span class="d-block text-muted">Site description</span>
-						<span class="d-block text-info mt-1"><i class="fa fa-info mr-1" aria-hidden="true"></i> Status message ipsum dolor sit amet, consectetur adipiscing elit.</span>
-					</div>
-					<span class="badge badge-warning"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Maintenance</span>
-				</div>
-			</li>
-			<li class="list-group-item">
-				<div class="d-flex justify-content-between align-items-center w-100">
-					<div>
-						<strong class="text-gray-dark">www.examp.le</strong>
-						<span class="d-block text-muted">Site description</span>
-					</div>
-					<div>
-						<span class="badge badge-danger"><i class="fa fa-times" aria-hidden="true"></i> Outage</span>
-						<span class="badge badge-dark"><i class="fa fa-clock" aria-hidden="true"></i> 5 min</span>
+						<span class="badge badge-success"><i class="fa fa-info mr-1" aria-hidden="true"></i> OK</span>
 					</div>
 				</div>
 			</li>
@@ -81,7 +59,7 @@
 
 	<section id="past-incidents" class="card bg-white rounded shadow-sm mt-3">
 		<div class="card-header">
-			<strong><i class="fa fa-calendar mr-1" aria-hidden="true"></i> Past incidents</strong>
+			<strong><i class="fa fa-pencil-square mr-1" aria-hidden="true"></i> Dictionary</strong>
 		</div>
 		<ul class="list-group list-group-flush">
 			<li class="list-group-item">
@@ -142,6 +120,7 @@
 			</li>
 	  	</ul>
 	</section>
+	
 </main>
 
 <!-- End of index page content -->

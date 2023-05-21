@@ -21,6 +21,7 @@
   "homepage": "https://github.com/michaldaniel/nodejs-status-page#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "latest",
+    "axios": "^1.4.0",
     "body-parser": "latest",
     "bootstrap": "latest",
     "crypto": "^1.0.1",
@@ -29,6 +30,7 @@
     "jquery": "latest",
     "jsonwebtoken": "^8.5.0",
     "mongoose": "latest",
+    "node-fetch": "^3.3.1",
     "nodemon": "^2.0.22",
     "npm": "^6.8.0",
     "popper": "latest"
