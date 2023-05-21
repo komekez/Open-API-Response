@@ -1,19 +1,36 @@
 {
-    "name": "frontend",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node app/index.js",
-      "dev": "nodemon app/index.js"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "ejs": "^3.1.9",
-        "express": "^4.18.2",
-        "nodemon": "^2.0.22"
-      }
+  "name": "status-page",
+  "version": "1.0.0",
+  "description": "Simple status page created to learn a little bit of web development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "mangodb",
+    "bootstrap",
+    "status-page",
+    "statuspage",
+    "website"
+  ],
+  "author": "Kaustubh",
+  "license": "ISC",
+  "homepage": "https://github.com/michaldaniel/nodejs-status-page#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "latest",
+    "body-parser": "latest",
+    "bootstrap": "latest",
+    "crypto": "^1.0.1",
+    "ejs": "latest",
+    "express": "latest",
+    "jquery": "latest",
+    "jsonwebtoken": "^8.5.0",
+    "mongoose": "latest",
+    "nodemon": "^2.0.22",
+    "npm": "^6.8.0",
+    "popper": "latest"
   }
+}
