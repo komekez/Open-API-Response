@@ -22,8 +22,9 @@ app.get('/animals', (req, res) => {
     res.render('Animals', {random: num});
 })
 
-app.use('*', (req, res) => {
-    res.send('<h2>Seems like you have made request to a wrong url!');
+app.use('/', (req, res) => {
+    // res.send('<h2>Seems like you have made request to a wrong url!');
+    res.render('index')
 })
 
 app.listen(config.frontend.port, () => {
