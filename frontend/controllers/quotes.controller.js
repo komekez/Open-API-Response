@@ -1,8 +1,4 @@
-const Settings = require('../models/settings.model');
-const Incident = require('../models/incident.model');
-const Website = require('../models/website.model');
 const config = require('../config')
-
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 
 const baseUrl = config.SITE+":"+config.API.PORT

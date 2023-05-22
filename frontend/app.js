@@ -4,7 +4,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 const index = require('./routes/index.route');
-const admin = require('./routes/admin.route');
 const app = express();
 
 const config = require('./config')
@@ -17,7 +16,6 @@ app.use('/js', express.static(__dirname + '/node_modules/jquery/dist')); // redi
 app.use('/css', express.static(__dirname + '/node_modules/bootstrap/dist/css')); // redirect CSS bootstrap
 app.use('/fontawesome', express.static(__dirname + '/node_modules/@fortawesome/fontawesome-free/')); // redirect CSS fontawesome
 app.use('/', index);
-app.use('/admin', admin)
 
 let port = config.FRONTEND.PORT;
 
