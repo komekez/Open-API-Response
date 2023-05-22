@@ -36,6 +36,6 @@ Following steps needs to be taken to install the frontend
     npm run dev
    ```
  5. If you want to run the project in production mode, than I have defined the project in node
-   ```
+    ```
     npm run start
-   ```
+    ```
