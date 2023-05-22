@@ -39,3 +39,32 @@ Following steps needs to be taken to install the frontend
     ```
     npm run start
     ```
+    
+ ## Backend
+ Backend folder name is written as api. It also follows MVC arch. for the same purposes that we have defined earlier. Backend also contains the config.js containing Port, URL, etc which needs to be hidden from the outside world. 
+ 
+ Following tech stack has been used to develop the Backend
+1. Express
+2. Node
+
+Following steps needs to be taken to install the frontend
+1. Clone the repository using the following command
+   ```
+   git clone https://github.com/komekez/Open-API-Response
+   ```
+2. Go inside the frontend folder using
+   ```
+   cd /apis
+   ```
+3. Install the required dependencies
+   ```
+   npm install
+   ```
+4. If you want to run the project in dev mode, than I have defined the project in nodemon, which automatically refreshes the server after      each change
+   ```
+    npm run dev
+   ```
+ 5. If you want to run the project in production mode, than I have defined the project in node
+    ```
+    npm run start
+    ```
