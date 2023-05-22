@@ -31,11 +31,11 @@ Following steps needs to be taken to install the frontend
    ```
    npm install
    ```
-4. If you want to run the project in dev mode, than I have defined the project in nodemon, which automatically refreshes the server after each change
-  ```
-  npm run dev
-  ```
+4. If you want to run the project in dev mode, than I have defined the project in nodemon, which automatically refreshes the server after      each change
+   ```
+    npm run dev
+   ```
  5. If you want to run the project in production mode, than I have defined the project in node
-  ```
-  npm run start
-  ```
+   ```
+   npm run start
+   ```
