@@ -35,8 +35,4 @@ exports.wordSearch = async function (req, res) {
         status : 'success',
         response : result
     })
-    // return {
-    //     status : success,
-    //     data : res
-    // }
 };
